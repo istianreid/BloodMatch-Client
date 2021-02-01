@@ -1,0 +1,57 @@
+h2 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.test-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.test-main {
+  width: 100%;
+}
+
+.test-item {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.client-details {
+  width: 463px;
+  font-family: "Roboto";
+  line-height: 26px;
+  color: #454a4d;
+  margin-left: 50px;
+  background: url("../../../media/Close\ quote.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 263px;
+}
+
+.client-statement {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.client-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.client-class {
+  font-weight: 700;
+  font-size: 12px;
+  color: #d73728;
+}
+
+.test-arrows {
+  width: 34px;
+  height: 34px;
+}

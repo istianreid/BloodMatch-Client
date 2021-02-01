@@ -1,0 +1,76 @@
+.process-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 1017px;
+}
+
+.process-image {
+  background: url(../../../media/red-section.jpg);
+  width: 100%;
+  background-size: cover;
+  clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+}
+
+.process-title {
+  font-family: "Rubik";
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.process-sub {
+  font-family: "Rubik";
+  width: 592px;
+  height: 86px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.process-deck {
+  height: 379px;
+  width: 1160px;
+  margin: 80px 0px;
+}
+
+.process-card {
+  width: 260px;
+  height: 379px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 15px rgba(101, 10, 10, 0.25);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.card-icon {
+  width: 50px;
+  margin-bottom: 40px;
+}
+
+.card-title {
+  font-family: "Rubik";
+  height: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 26px;
+}

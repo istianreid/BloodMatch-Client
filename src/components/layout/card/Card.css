@@ -1,0 +1,37 @@
+.storyCard {
+  display: flex;
+  width: 550px;
+  height: 243px;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.featureImage {
+  width: 217px;
+  border-radius: 8px 0px 0px 8px;
+  object-fit: cover;
+}
+
+.featureTitle {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.featureContent {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.featureDate,
+.featureCity {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #747b80;
+}

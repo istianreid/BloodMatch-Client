@@ -1,0 +1,67 @@
+.all-stories {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #d73728;
+}
+
+.all-stories:hover {
+  text-decoration: none;
+  color: #d73728;
+}
+
+h6 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.feature-date,
+.feature-city {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #747b80;
+}
+
+.feature-one {
+  height: 778px;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.feature-one-image {
+  height: 538px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.story-card {
+  width: 550px;
+  height: 243px;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.feature-image {
+  width: 217px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.feature-title {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.feature-context {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}

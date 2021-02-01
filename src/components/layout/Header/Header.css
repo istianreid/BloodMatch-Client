@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Rubik";
+}
+
+/* reusbale component  */
+.textCustom {
+  color: #131415;
+  flex-direction: row;
+  align-items: center;
+  height: 24px;
+  /* width: 120px;  -- need to have width para pantay sa collapse*/
+
+  /* Links Font */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header > div {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+header .line {
+  width: 0px;
+  border-right: 1px solid #e5e5e5;
+  transform: rotate(90);
+}
+
+header span > svg {
+  margin-right: 8px;
+}
+
+header span {
+  width: 100%;
+  padding: 0 10px;
+  background-color: white;
+}
+
+header .toggle {
+  margin-left: 16px;
+  margin-top: 6px;
+}
+
+.navbarLinks {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.navbarCustom {
+  position: relative;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  z-index: 999;
+}
+
+.logo {
+  align-items: center;
+  position: absolute;
+  width: 186px;
+  height: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+@media (max-width: 991px) {
+  .textCustom {
+    width: 180px;
+  }
+
+  header .line {
+    display: none;
+  }
+
+  .navbarLinks {
+    padding-top: 16px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+}

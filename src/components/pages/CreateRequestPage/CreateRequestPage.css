@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Rubik";
+}
+
+.CreateRequest > section {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 104px 16px;
+}
+
+.CreateRequest > section > div {
+  max-width: 563px;
+  margin: 0 auto;
+}
+
+.CreateRequest h2 {
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 42.66px;
+  color: #131415;
+  margin-bottom: 32px;
+}
+
+.CreateRequest .titlePara {
+  margin-bottom: 40px;
+  font-family: "Roboto";
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #454a4d;
+}
+
+.CreateRequest .formLabel {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 0.87rem;
+  line-height: 16px;
+  color: #131415;
+}
+
+.CreateRequest .textLabels {
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 20px;
+  color: #454a4d;
+}
+
+.buttonGrp {
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.CreateRequest .cancelButton {
+  background-color: #fff;
+  width: 105px;
+  height: 40px;
+  color: #747b80;
+  font-weight: 700;
+  line-height: 16px;
+  font-size: 0.87rem;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+}
+
+.CreateRequest .saveButton {
+  background-color: #d73728;
+  width: 165px;
+  height: 40px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 16px;
+  font-size: 0.87rem;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.CreateRequest .dragNdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f8fa;
+  width: 100%;
+  height: 226px;
+  border: 1px solid #e5e5e5;
+  color: #a2acb2;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 20px;
+  outline: none;
+  text-align: center;
+}
+.CreateRequest aside {
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 20px;
+  color: #131415;
+}
+
+.CreateRequest .dragNdrop svg {
+  margin-bottom: 12px;
+}
+
+.CreateRequest .dragNdrop div {
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,8 @@
+.switchLayout {
+  padding: 0;
+  margin: 0;
+}
+
+.custom-switch {
+  padding-left: 0 !important;
+}

@@ -1,0 +1,336 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Rubik";
+}
+
+.ProfilePage {
+  background-color: #f5f8fa;
+}
+
+.ProfilePage > section {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 104px 16px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.ProfilePage > section:last-child {
+  padding-top: 0;
+}
+
+.ProfilePage .topLabel {
+  width: 100%;
+  background-color: #d73728;
+
+  height: 56px;
+  border-radius: 4px 4px 0px 0px;
+  box-shadow: 0px 4px 15px rgba(230, 230, 230, 0.1);
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 58px;
+}
+
+.ProfilePage .profileDetails .topLabel {
+  margin-bottom: 40px;
+}
+
+.ProfilePage .topLabel h5 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.87rem;
+  line-height: 20px;
+  margin: 0;
+}
+
+/* Profile Side */
+.profileInfo {
+  width: 360px;
+  height: 684px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  box-shadow: 0px 4px 15px rgba(230, 230, 230, 0.1);
+  background: #ffffff;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+}
+
+.profileInfo .profileInfoBody {
+  padding: 0 35px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileInfo .profilePic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+
+  margin-bottom: 24px;
+}
+
+.profileInfo h3 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 28px;
+  color: #131415;
+
+  margin-bottom: 25px;
+}
+
+.profileInfo h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 26px;
+  color: #454a4d;
+  margin-bottom: 24px;
+}
+
+.profileInfo p {
+  font-size: 1rem;
+  line-height: 26px;
+  color: #454a4d;
+  text-align: center;
+}
+
+.profileInfo .editButton {
+  position: absolute;
+  bottom: 40px;
+
+  color: #747b80;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+
+  width: 127px;
+  height: 36px;
+
+  font-size: 0.87rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  left: 114px;
+}
+
+/* total of blood donated & requested */
+
+.profileDetails h2 {
+  margin-top: 34px;
+
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 28px;
+  color: #454a4d;
+}
+
+.profileDetails {
+  width: 762px;
+  margin-left: 40px;
+}
+
+.profileDetails .bloodDonation,
+.profileDetails .bloodRequested {
+  filter: drop-shadow(0px 4px 15px rgba(230, 230, 230, 0.1));
+
+  width: 360px;
+  height: 250px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  box-shadow: 0px 4px 15px rgba(230, 230, 230, 0.1);
+  background: #ffffff;
+
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.profileDetails .bloodDonation {
+  margin-right: 38px;
+}
+
+/* BASIC INFORMATION */
+
+.profileDetails .basicInfo {
+  width: 760px;
+  height: 394px;
+
+  filter: drop-shadow(0px 4px 15px rgba(230, 230, 230, 0.1));
+  border-radius: 4px;
+  box-shadow: 0px 4px 15px rgba(230, 230, 230, 0.1);
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+
+  flex-direction: column;
+}
+
+.profileDetails .basicInfo .topLabel {
+  justify-content: flex-start;
+  padding-left: 32px;
+}
+
+.profileDetails .basicInfo ul {
+  list-style: none;
+  width: 198px;
+  height: 226px;
+}
+
+.profileDetails .basicInfo ul li {
+  margin-bottom: 24px;
+  color: #454a4d;
+  line-height: 26px;
+}
+
+.profileDetails .basicInfo .basicInfoLabels ul li {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.profileDetails .basicInfo .changePassword {
+  color: #747b80;
+  background-color: #fff;
+}
+
+.buttonCustom {
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 14px 16px;
+  font-weight: 700;
+  font-size: 0.87rem;
+  line-height: 16px;
+}
+
+.redButton {
+  background-color: #d73728;
+}
+
+.profileDetails .basicInfo .changePassword svg {
+  margin-right: 10px;
+}
+
+/* MODAL */
+
+.modalHeader {
+  background-color: #d73728;
+
+  height: 56px;
+  border-radius: 4px 4px 0px 0px;
+  box-shadow: 0px 4px 15px rgba(230, 230, 230, 0.1);
+}
+
+.modalTitle {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 20px;
+  margin: 0;
+}
+
+.modalFooter {
+  border-top: none;
+}
+
+.formLabel {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 16px;
+  color: #131415;
+}
+
+.passwordLabel {
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 20px;
+  color: #454a4d;
+}
+
+.form-control {
+  height: 48px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.close {
+  color: #fff;
+}
+
+/* Table */
+.nav-item {
+  margin-right: 16px;
+  border-bottom: none;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #d73728;
+  color: #fff;
+}
+
+.nav-tabs .nav-link {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border: none;
+
+  color: #a2acb3;
+  background-color: #fff;
+
+  font-weight: 700;
+  font-size: 0.87rem;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+
+  height: 52px;
+  z-index: 999;
+}
+
+/* SECOND SECTION */
+.tableSize {
+  width: 1160px;
+}
+
+.table {
+  background-color: #fff;
+  text-align: center;
+}
+
+.table thead tr th {
+  border-top: none;
+}
+
+.pending {
+  padding: 4px 0;
+  background-color: rgba(43, 186, 217, 0.1);
+
+  margin: 0;
+
+  color: #2bbad9;
+  font-family: "Lato";
+  font-size: 0.87rem;
+  line-height: 16px;
+}
+
+.complete {
+  padding: 4px 0;
+  background-color: rgba(36, 190, 141, 0.1);
+  text-align: center;
+  margin: 0;
+
+  color: #24be8d;
+  font-family: "Lato";
+  font-size: 0.87rem;
+  line-height: 16px;
+}
