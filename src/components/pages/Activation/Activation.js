@@ -1,14 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { useParams, Redirect } from "react-router-dom";
-import axios from "axios";
+import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 import { useDispatch, useSelector } from "react-redux";
-import queryString from "query-string";
 import { userActions } from "../../../_actions";
 import { store } from 'react-notifications-component'
 
 const Activation = (props) => {
-  // const [activate, setActivate] = useState(false);
   let { key } = useParams();
   console.log(key)
 
@@ -40,11 +37,7 @@ const Activation = (props) => {
   }, [success])
 
 
-  // useEffect(() => {
-  //   //connect to api confirm the key
 
-  //   setActivate(true);
-  // }, []);
 
   return (
     <div>

@@ -1,4 +1,4 @@
-import React ,  {useEffect , useState} from "react";
+import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "./Header.css";
 import { useDispatch, useSelector } from "react-redux";

@@ -1,5 +1,5 @@
-import React, {Fragment , useEffect , useState , Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, {Fragment , useEffect} from "react";
+import { BrowserRouter as Router , Route } from 'react-router-dom'
 import Switch from "react-bootstrap/esm/Switch";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -50,23 +50,23 @@ const App = () => {
 
     return (
       <Fragment>
-        <Router>
-          <ReactNotification />
+        <ReactNotification />
+          <Router basename={process.env.PUBLIC_URL}>
             <Header />
-              <Switch className='switchLayout'>
-                <Route exact path='/' component={Home} />
-                <Route path='/signin' component={SignIn} />
-                <Route path='/register' component={Register} />
-                <Route path='/activate/:key' component={Activation} />
-                <Route path='/forgotPW' component={ForgotPW} />
-                <Route path='/setupProfile' component={SetupProfile} />
-                <Route path='/editProfilePage' component={EditProfile} />
-                <Route path='/createRequestPage' component={CreateRequest} />
-                <Route path='/profilePage' component={Profile} />
-                <Route path='/explorePage' component={Explore} />
-              </Switch>
+                <Switch className='switchLayout'>
+                  <Route exact path='/' component={Home} />
+                  <Route path='/signin' component={SignIn} />
+                  <Route path='/register' component={Register} />
+                  <Route path='/activate/:key' component={Activation} />
+                  <Route path='/forgotPW' component={ForgotPW} />
+                  <Route path='/setupProfile' component={SetupProfile} />
+                  <Route path='/editProfilePage' component={EditProfile} />
+                  <Route path='/createRequestPage' component={CreateRequest} />
+                  <Route path='/profilePage' component={Profile} />
+                  <Route path='/explorePage' component={Explore} />
+                </Switch>
             <Footer />
-        </Router>
+          </Router>
 
         <script
           src='https://unpkg.com/react/umd/react.production.min.js'

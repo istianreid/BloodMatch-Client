@@ -2,14 +2,12 @@ import React, { useState , useEffect } from "react";
 import { useDropzone } from "react-dropzone";
 import { Form, Col, InputGroup , Button } from "react-bootstrap";
 import { Link } from 'react-router-dom';
-
 import {profileActions , userActions , requestPostActions} from'../../../_actions'
 import jwt_decode from "jwt-decode";
 import {profileConstants} from '../../../_constants'
 import { useDispatch, useSelector} from "react-redux";
 import {instance} from '../../../_helpers/axios'
-import { store } from 'react-notifications-component'
-import Loading from '../../layout/loader/Loading'
+
 
 import "./EditProfilePage.css";
 
@@ -19,8 +17,8 @@ const EditProfilePage = (props) => {
   const profileData = useSelector((state) => state.profile);
   const auth = useSelector((state) => state.auth);
   
-  const {user, errors , isValid} = auth;
-  const {success, profile , valid , loading} = profileData;
+  const {user,isValid} = auth;
+  const {valid} = profileData;
 
   //user data
   const [email, setEmail] = useState(user.email);

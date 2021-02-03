@@ -3,11 +3,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import "./Explore.css";
 
-import data from "../../../data.json";
+
 import Stories from "../../layout/card/Index";
 import Filter from '../../layout/filter/Index';
 
-import {userActions , profileActions , requestPostActions } from '../../../_actions'
+import { requestPostActions } from '../../../_actions'
 import { useDispatch, useSelector} from "react-redux";
 import Loading from '../../layout/loader/Loading';
 

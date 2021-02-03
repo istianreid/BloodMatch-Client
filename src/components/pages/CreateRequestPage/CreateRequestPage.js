@@ -1,14 +1,11 @@
 import React, { useState,useEffect} from "react";
 import { useDropzone } from "react-dropzone";
 import { Form, Col, InputGroup } from "react-bootstrap";
-
 import "./CreateRequestPage.css";
-
 import { useDispatch, useSelector } from "react-redux";
 import { requestPostActions } from "../../../_actions";
-import {requestPostConstants} from '../../../_constants'
 import {instance} from '../../../_helpers/axios'
-import axios from "axios"
+
 
 const CreateRequestPage = (props) => {
   

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Card } from 'react-bootstrap';
 import {imgRequestpost} from "../../../_helpers/axios"
 
@@ -6,7 +6,7 @@ import "./Card.css";
 
 const Stories = ({posts}) => {
 
-    const { _id,referenceNumber, photo, title, location, closingDate , story , datePost} = posts 
+    const { _id,referenceNumber, photo, title, location, story , datePost} = posts 
 
     console.log(posts.location)
 
