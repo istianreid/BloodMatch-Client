@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BloodMatch-Client/static/css/main.8047ac51.chunk.css",
-    "main.js": "/BloodMatch-Client/static/js/main.ade18b1f.chunk.js",
-    "main.js.map": "/BloodMatch-Client/static/js/main.ade18b1f.chunk.js.map",
+    "main.js": "/BloodMatch-Client/static/js/main.f2cde38e.chunk.js",
+    "main.js.map": "/BloodMatch-Client/static/js/main.f2cde38e.chunk.js.map",
     "runtime-main.js": "/BloodMatch-Client/static/js/runtime-main.b3e8256e.js",
     "runtime-main.js.map": "/BloodMatch-Client/static/js/runtime-main.b3e8256e.js.map",
     "static/css/2.7f139eec.chunk.css": "/BloodMatch-Client/static/css/2.7f139eec.chunk.css",
@@ -34,6 +34,6 @@
     "static/css/2.7f139eec.chunk.css",
     "static/js/2.699e0f05.chunk.js",
     "static/css/main.8047ac51.chunk.css",
-    "static/js/main.ade18b1f.chunk.js"
+    "static/js/main.f2cde38e.chunk.js"
   ]
 }
